@@ -1,0 +1,9 @@
+export const FAVORITES_ROUTE = "/favorites";
+export const ADD_FAVORITE_ROUTE = "/dish/addFavorites";
+export const RANDOM_DISH_ROUTE = "/dish/randomDish";
+export const ADD_CUSTOM_DISH_ROUTE = "/dish/addCustomDish";
+export const DELETE_CUSTOM_DISH_ROUTE = "/dish/removeCustom";
+export const DELETE_FAV_DISH_ROUTE = "/dish/removeFavorites";
+export const GET_ALL_FAV_RECIPES_ROUTE = "/dish/favDishes";
+export const GET_ALL_CUST_RECIPES_ROUTE = "/dish/custDishes";
+export const STATIC_PIC_URL = "http://localhost:5000/pancakes.png";
