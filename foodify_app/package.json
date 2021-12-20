@@ -10,7 +10,7 @@
     "client:install": "npm install --prefix client",
     "client:build": "npm run build --prefix client",
     "predeploy": "npm run build --prefix client",
-    "deploy": "gh-pages -d --prefix client build"
+    "deploy": "gh-pages -d ./client/build"
   },
   "keywords": [],
   "author": "",
